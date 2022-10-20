@@ -1,0 +1,35 @@
+.layout {
+  width: 100vw;
+  box-sizing: border-box;
+  min-height: 100vh;
+  height: auto;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--purple);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav > * {
+  margin-right: 30px;
+}
+
+.anchor {
+  color: var(--pink);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.content {
+  padding: 30px 50px;
+}
